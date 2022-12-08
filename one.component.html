@@ -1,0 +1,113 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>GAMES</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">  
+    <ion-button routerLink="/one" routerLinkActive="active" class = "btn-block" expand = "block" color="light">Basketball</ion-button><br>
+    <ion-button routerLink="/two" routerLinkActive="active" class = "btn-block" expand = "block" color="light">Volleyball</ion-button><br>
+    <ion-button routerLink="/three" routerLinkActive="active" class = "btn-block" expand = "block" color="light">Boxing</ion-button><br>
+    <ion-button routerLink="/four" routerLinkActive="active" class = "btn-block" expand = "block" color="light">Billiards</ion-button><br>
+    <ion-button routerLink="/five" routerLinkActive="active" class = "btn-block" expand = "block" color="light">Taekwondo</ion-button><br>
+    <ion-button routerLink="/six" routerLinkActive="active" class = "btn-block" expand = "block" color="light">Sepak Takraw</ion-button><br>
+    <ion-button routerLink="/seven" routerLinkActive="active" class = "btn-block" expand = "block" color="light">Arnis</ion-button><br>
+  </ion-content>
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/home">Philippine Sports</a>
+
+        </div>
+      </nav>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-card>
+      <img src="assets/1.jpg" />
+      <ion-card-header>
+        <ion-card-title>BASKETBALL</ion-card-title>
+        <ion-card-subtitle>PHILLIPINES</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Basketball is played on both the amateur and professional levels. Almost everywhere you look in the country, 
+        on the streets of Manila or along pristine beaches of Boracay, or in flashes amongst the forests of Bataan – 
+        you will see people sporting the colors of their favorite teams.
+
+        Why did basketball take off the way it did? When the Americans brought organized sport to the country, 
+        they focused on baseball and basketball, but it was the hoops that took off. Perhaps it is easy to understand why. 
+        Basketball doesn’t need a big field or soft surfaces to dive around on. The game requires little space, no maintenance, 
+        no expensive gear, and no required number of players for a social game.
+
+        The Philippines won several medals in various pan-Asian competitions over the next few decades. 
+        Winning the 1913 Far Eastern games was an incredible moment for the nation. This was the springboard that made basketball what is it is today, 
+        the most popular sport in the Philippines.
+      </ion-card-content>
+    </ion-card>
+    
+    <style>
+    
+      ion-card-header.ios {
+        display: flex;
+        flex-flow: column-reverse;
+      }
+    </style>
+ <br>
+  <ion-text color="primary">
+    <h3>Philippines Men's National Basketball Team</h3>
+  </ion-text>
+
+  <ion-text>
+  <h4>HISTORY</h4>
+ </ion-text>
+
+
+    <ion-accordion-group [multiple]="true" [value]="['first', 'third']">
+      <ion-accordion value="first">
+        <ion-item slot="header" color="light">
+          <ion-label>The NCC program (1980–1986)</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">To offset the loss of players of the PBA, the BAP delegated to businessman Eduardo Cojuangco, Jr. 
+          The formation of a team that will train together for several months, in essence, a club team unaffiliated with any league. 
+          The result was the Northern Cement basketball team coached by the American Ron Jacobs that had four naturalized players. 
+          In the 1982 Asian Games in New Delhi, the team finished fourth behind Korea, China and Japan. In the 1983 Asian Championship in Hong Kong, 
+          the Philippines forfeited their preliminary round games after a misunderstanding in the rules that caused the Philippines to play more than 
+          one naturalized player on the floor at the time. The Philippines, without their naturalized players, made short work of the classification round 
+          to finish in ninth place. The Northern Cement team won the 1985 Asian Championship in Kuala Lumpur, to qualify for the 1986 FIBA World Championship in Spain.</div>
+      </ion-accordion>
+      <ion-accordion value="second">
+        <ion-item slot="header" color="light">
+          <ion-label>Team Pilipinas (2007–2009)</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">After the conclusion of the leadership struggle that saw the Samahang Basketbol ng Pilipinas (SBP), 
+          an organization backed by the PBA among others, being recognized by both FIBA and the Philippine Olympic Committee, the Philippines was reinstated by FIBA. 
+          San Miguel-Team Pilipinas was hastily assembled for the 2007 FIBA Asia Championship in Tokushima. The team defeated China, which didn't send its best team 
+          since they already qualified for the 2008 Olympics, but lost to Iran and Jordan to bow out of contention. The Filipinos and Chinese met again for the ninth 
+          place game in which the Filipinos won by two points. The Philippines qualified for the 2009 FIBA Asia Championship in Tianjin. The Philippines advanced to 
+          the quarterfinals to meet Jordan. The Jordanians raced to an early lead where the Filipinos never recovered to win the game. The Filipinos and the Koreans 
+          played for seventh place, which saw the Koreans winning by two points.</div>
+      </ion-accordion>
+      <ion-accordion value="third">
+        <ion-item slot="header" color="light">
+          <ion-label>Gilas Pilipinas (2010–present)</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">The next edition of Smart Gilas Pilipinas team (Smart Gilas Pilipinas 2.0) 
+          composed of PBA players. The Smart Gilas Pilipinas program was renamed Gilas Pilipinas in 2013, still sponsored by Smart Communications. 
+          The national team played in the 2013 FIBA Asia Championship which was hosted at home. After losing to Chinese Taipei in the last game of 
+          the preliminary round to finish second, the team won four consecutive games to set up a semifinal against the Koreans. In a close game, 
+          the Philippines pulled away late in the game to win 86–79. The win sent the team to the finals and guaranteed qualification to the 
+          FIBA Basketball World Cup (new name of the FIBA World Championship) for the first time since 1978. The Philippines, appearing in the first 
+          FIBA Asia Championship final since the introduction of a championship game in 1987, lost by 14 points against undefeated Iran in the final 
+          to settle for a silver medal.</div>
+      </ion-accordion>
+    </ion-accordion-group>
+
+  </ion-content>
+</div>

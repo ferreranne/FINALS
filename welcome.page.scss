@@ -1,0 +1,15 @@
+/*ion-content.back{
+    --background: linear-gradient(to top, rgb(139, 253, 139) 0%, #fff 100%);
+
+}*/
+.home-background{
+    --background: url('/assets/CDFC.jpg') no-repeat center center fixed;
+    --background-position: center;
+    --background-repeat: no-repeat;
+    --background-size: cover;
+    --height: 30%;
+
+}
+ion-title{
+    color: azure;
+}
